@@ -16,14 +16,14 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = ">= 3, < 6"
+      version = ">= 4"
     }
   }
 }
 
 module "ci_cd_account" {
   source  = "GoCarrot/accountomat_read/aws"
-  version = "0.0.4"
+  version = ">= 0.0.6"
 
   canonical_slug = var.build_from_account
 }
