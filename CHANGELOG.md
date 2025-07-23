@@ -1,3 +1,9 @@
+## 0.0.4
+
+ENHANCEMENTS:
+
+* Permit AWS provider v6 usage.
+
 ## 0.0.3
 
 ENHANCEMENTS:
